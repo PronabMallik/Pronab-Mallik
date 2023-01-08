@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0,50, 0.5),rgba(0,0,50,0.5)),url("SAVE_20191201_184220.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	  height: 554px;
+    width: auto;
+}
+.contact-title{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out; 
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+	color: #E8984A;
+}
+.contact-title h2{
+	font-size: 16px;
+	color: aliceblue;
+	color: yellowgreen;
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	
+}
+input{
+	height: 45px;
+}
+from  .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

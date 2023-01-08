@@ -1,0 +1,80 @@
+/*CSS DOCUMENT*/
+
+*{
+	margin: 0px;
+	padding: 0px;-
+}
+body{
+	background:url("SAVE_20191201_212309.jpg");
+	   background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+	
+}
+
+#from{
+	width: 700px;
+	height: 470px;
+	background:url("blue-blue-background-botanical-1445416.jpg") ;
+	background-repeat:  no-repeat;
+	background-size: 100% 100%;
+	margin: 80px auto;
+	text-align: center;
+	opacity: .9;
+	border: 2px solid  dashed ;
+
+	
+}
+#from h1{
+	font-size: 36px;
+	color:darkblue;
+	margin-bottom: 30px;
+	font-family:Lucida Calligraphy;
+}
+#from h2{
+	color:BLACK;
+}
+.input{
+	height: 30px;
+	width: 300px;
+	margin: 5px;
+	border-radius: 10px;
+	background:url("SAVE_20191201_184220.jpg");
+	color: aliceblue;
+	margin: 5px o;
+	padding-left: 15px;
+}
+#from textarea{
+	height: 70px;
+}
+.from-submit-button{
+	background: #0066a2;
+	color: #fff;
+	border-color: #0066a2;
+	height: 50px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+	text-shadow: none;
+}
+
+#sbt input[type="submit"]
+{
+  border:none;
+	outline: none;
+	height: 30px;
+	width: 120px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 23px;
+	border-radius: 10px;
+	margin-top: 3%;
+}
+#sbt input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color:#000;	
+
+}
+
+

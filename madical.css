@@ -1,0 +1,620 @@
+body {
+	margin:0px;
+	padding:0px;
+	
+}
+
+
+/* ######################################## STARTING PAGE STYLE*/
+
+
+
+
+.main_intro {
+	       background-image:url("SAVE_20191113_202655.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 660px;
+}
+
+.nav {
+        height: 85px;
+    width: 45%;
+    overflow: hidden;
+    margin-left: 741px;
+	
+}
+.nav ul {
+	    height: 80px;
+    width: 460px;
+    margin-right: 10px;
+    float:left;
+    margin-top: 8px;
+	position:fixed;
+    top: 0;
+    width: 100%;
+
+}
+.nav ul li {
+	list-style-type:none;
+	
+}
+.nav ul li a {
+    text-decoration:none;
+    width: 100px;
+    display: block;
+    float:left;
+    margin-left: 14px;
+    margin-top-: 10px;
+    text-align: center;
+    color:rgba(92,219,13,1.00);
+    border-radius: 10px;
+    transition: 0.15s;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+		
+}
+.nav ul li a:hover {
+	    color:red;
+    border-bottom: 3px solid #AB3783;
+  
+}
+
+.logoshit {
+	    height: 128px;
+    width: 100%;
+}
+.nav ul li ul{
+	display: block;
+	background: none;
+	min-width: 250px;
+	position: fixed;
+	margin-top: 1px;
+	box-shadow: 0 2px 5px none;
+
+	transform: .5s;
+}
+
+
+      
+
+
+.logoshit {
+	    height: 128px;
+    width: 100%;
+}
+.logo {
+	height:100px;
+	width:100px;
+	margin:20px 0px 0px 20px;
+	float:left;
+	
+}
+.logo img {
+	    height: 50px;
+    width: 50px;
+}
+
+.intro_text {
+	    height: 200px;
+    width: 437px;
+    margin-left: 180px;
+    padding-left: 10px;
+    overflow:auto;
+}
+.intro_text .head {
+	       height: 62px;
+    width: 180px;
+    text-align:left;
+    color:rgba(23,6,245,1.00);
+    font-family: Bree Serif, serif;
+    word-spacing: 10px;
+
+}
+.intro_text .motto {
+	           color:red;
+    height: 60px;
+    width: 410px;
+    margin-left: -10px;
+	
+}  
+
+.intro_text .motto h3 {
+	font-family: Lucida Calligraphy;
+	color:rgba(239,172,5,1.00);
+	font-size:35px;
+	margin-top: 10px;
+	overflow:hidden;
+}
+
+
+
+.intro_text .location {
+	        height: 20px;
+    width: 350px;
+    margin-top: 12px;
+    margin-left: -10px;
+    color:rgba(243,25,235,1.00);
+    font-size: 17px;
+	word-spacing: 06px;
+}
+.intro_text .location span {
+	color:green;
+}
+.main_intro .bottom_intro {
+	height: 78px;
+    width: 547px;
+    float:right;
+    color:none;
+    font-size: 50px;
+    font-family:Bernard MT Condensed;
+    margin-top: -100px;
+    background:none;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+
+
+
+.get {
+	height: 37px;
+    width: 158px;
+    border: 1px solid blue;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 190px;
+    margin-top: 50px;
+    font-size: 18px;
+	color:black;
+	background:rgba(184,184,184,0.70);
+	transition:0.1s;
+	cursor:pointer;
+	border-radius:10px;
+}
+.get a {
+	text-decoration:none;
+}
+
+	
+
+
+
+/* ######################################## STARTING PAGE STYLE ENDS*/
+/* ###########################################HOME PAGE STYLING 1st*/ 
+
+
+
+
+
+
+
+
+.home_page {
+	           background-image:url("SAVE_20191126_194531.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 660px;
+    padding-top: 80px;
+}
+
+.home_page_intro {
+	        height: 568px;
+    width: 1346px;
+    margin-top: 100px;
+}
+
+.head_box {
+	height:120px;
+	    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.head_box span {
+	    font-size: 20px;
+    color:rgba(249,218,7,1.00);   
+    letter-spacing: 1px;
+	text-align:center;
+    font-weight: lighter;
+	margin-top: 20px;
+}
+.text_box {
+	
+	position: relative;
+	box-sizing: border-box;
+	height: 320px;
+	width: 240px;
+	padding: 15px;
+	overflow: hidden;
+	background-color:black;
+	opacity: .5;
+	float: left;
+	margin-left:170px; 
+}
+
+.text_box p {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color:#fff;
+	font-size: 15px;
+    transition: 0.5s;
+	transform: scale(0.8);
+	font-family:"alex-brush";
+	
+        }
+
+.text_box:before {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	top: 0;
+	left: 0;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	opacity: 0;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.text_box:hover:before {
+	width: 100%;
+	height:100%;
+	opacity: 1;
+}
+
+.text_box:after {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	bottom: 0;
+	right: 0;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	opacity: 0;
+	box-sizing:border-box;
+	transition: 0.8s;
+}
+.text_box:hover:after {
+	width: 100%;
+	height:100%;
+	opacity: 1;
+}
+
+.text_boxhover:after {
+	width: 100%;
+	height:100%;
+	opacity: 1;
+}
+.text_box:hover p {
+	transform: scale(1);
+}
+
+
+
+
+
+
+/* ######################################################## HOME PAGE STYLE ENDS* 2nd /
+/* ######################################################## HOME PAGE EXTRA/DETAILS STYLE STARS*/
+
+
+
+
+.home_page_extra {
+	    background-image:url("SAVE_20191126_202240.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1120px;
+    width: auto;
+    
+}
+
+.conteainer_box {
+	        height: 900px;
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 200px;
+   
+}
+.conteainer_box .first_box {
+	        height: 500px;
+    width: 420px;
+    background: #a4cf9a;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+	
+}
+.busineess_content {
+	height: 200px;
+	text-align: center;
+	width: 960px;
+	color: #fff;
+	margin-top: 20px;
+	border: 1px solid #fff;
+}
+.first_box h3 {
+	    color: #000;
+    text-align: center;
+    font-size: 24px;
+	font-weight: 500px;
+}
+.first_box_consult {
+	    height: 25px;
+    width: 200px;
+    border: 1px solid blue;
+    margin-left: 96px;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 9px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px;
+    background:#fff;
+    color: #0a8a0a;
+    border-radius: 3px;
+	
+}
+.first_box_consult:hover {
+	background: black;
+    color: #FFFFFF;
+	cursor: pointer;
+}
+
+.blocking_div {
+	           height: 215px;
+    width: 415px;
+   }
+.doc_list {    height: 154px;
+    width: 400px;
+    margin-left: 8px;
+    margin-top: -15px;
+   
+}
+.doc_list .doc {
+	           height: 155px;
+    width: 120px;
+    margin-left: 8px;
+    float: left;
+
+}
+.doc img {
+	    border-radius: 5%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.supdiv {
+	    height: 202px;
+    width: 3px;
+   
+    float: left;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.affiliated_img {
+	margin-top:2px;
+	margin-left:5px;
+}
+.first_box_text_box {
+	       height: 178px;
+    width: 355px;
+    margin: 30px 0px 0px 30px;
+    text-align: center;
+   
+}
+.first_box h4 {
+	font-size: 24px;
+    height: 30px;
+    width: 350px;
+    background: local;
+    font-weight: 500;
+}
+.first_box_ban {
+	height: 201px;
+    width: 418px;
+    border: 1px solid rgba(167,167,167,1.00);
+    margin-top: 44px;
+}
+.first_box_ban img {
+	   height: 201px;
+    width: 418px;
+}
+.first_down_box {
+	    height: 290px;
+    width: 420px;
+    background: #a4cf9a;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.first_down_box_text {
+	    height: 150px;
+    width: 417px;
+    text-align: center;
+}
+.first_down_box_text h4 {
+	font-size: 24px;
+    height: 30px;
+    width: 350px;
+	text-align:center;
+    font-weight: 500;
+	margin-left: 35px;
+	
+}
+
+
+
+
+/* ######################################################## HOME PAGE EXTRA/DETAILS STYLE ENDS* 3rd /
+
+ /* ######################################## STARTING LAST PAGE STYLE*/
+
+
+
+
+.lastpage_big_img {
+    background-image:url("IMG_20191113_215849.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:50% 100%;
+    height: 685px;
+    width:675px;
+	float:left;
+
+}
+.lastpage {
+	 
+    height: 645px;
+	width:1349px;
+	
+}
+
+.lastpage_text {
+	               height: 685px;
+    width: 674px;
+    background: black;
+    float: right;
+	overflow:hidden;
+}
+
+.lastpage_big_img_text {
+	        height: 100px;
+    width: 319px;
+    padding-top: 60px;
+    padding-left: 75px;
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid green;
+    margin-left: 145px;
+    margin-top: 318px;
+    background: rgba(38, 38, 38, 0.68);
+}
+
+.lastpage_text_box_blocker  {
+	    height: 700px;
+    width: 600px;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+.line_a, .line_b {
+	
+	    height: 296px;
+    width: 596px;
+ 	
+}
+
+.left {
+	float:right;
+}
+
+.lastpage_text_box {
+	 height: 290px;
+    width: 290px;
+	color:#fff;
+	padding:0px 5px 0px 5px;
+	text-align:justify;
+}
+.lastpage_text_box h4 {
+	font-size:24px;
+	text-align:center;
+	text-transform:uppercase;
+	
+}
+.lastpage_text_box img {
+	    height: 140px;
+    width: 200px;
+}
+
+
+
+ /* ######################################## ENDING LAST PAGE STYLE* 4rd/
+ /* ######################################## STARTING FOOTER PAGE STYLE*/
+
+
+
+
+
+.footer {
+	    height: 600px;
+    width: 1347px;
+    border: 1px solid #fff;
+	overflow:hidden;
+}
+.footer_photo {
+	        height: 289px;
+    width: 1350px;
+    background-image:url("SAVE_20191113_215500.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -43px;
+}
+
+
+
+
+.footer_text {
+	        height: 360px;
+    width: 100%;
+    margin-top: 20px;
+    margin: 0px auto;
+    background:url("un2.jpg");
+}
+
+
+
+.coll { 
+	height: 355px;
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 50px;
+    float: left;
+}
+
+
+.coll ul {
+	    margin-top: 40px;
+       margin-left: -15px;
+}
+
+
+
+.coll li {
+	 list-style-type:square;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.coll a {
+	    text-decoration: none;
+    color:#000000;
+	font-family:"alex-brush";
+    font-weight: normal;
+	font-size:14px;
+}
+.coll a:hover {
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
